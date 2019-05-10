@@ -1,7 +1,10 @@
 <div class="container" >
   <div class="loginBox">
     <img class="logo" src="./assets/img/cooltz-logo.png" alt="logo" >
-    <button class="btn">Entrar</button>
+    <button *ngIf="!inputView" (click)="showInput()" class="btn">Entrar</button>
+    <h2 *ngIf="inputView" class="descLbl desc">Digite seu e-mail</h2>
+    <input *ngIf="inputView"  type="email"> 
+
     <button class="btn">Criar nova conta</button>
  
   </div>

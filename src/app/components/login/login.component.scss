@@ -6,7 +6,7 @@
     width: 320px;
     height: 450px;
     position: absolute;
-    top: 0;
+    top: 30px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -20,6 +20,7 @@
     border: 0;
     border-radius: 7px;
     color: white;
+    margin-bottom: 15px;
 }
 
 .logo{
@@ -28,4 +29,10 @@
     display: block;
     margin-bottom: 20px;
     width: 200px;
+}
+
+.desc{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 3px;
 }
