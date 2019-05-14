@@ -1,11 +1,10 @@
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
-
 html,body{
     height: 100%;
     margin: 0;
+    overflow: hidden;
 }
 body{
-        background-color: #212020;
+      background-color: #212020;
 }
 
 input{
@@ -25,8 +24,22 @@ input{
     height: 19px;
     width: 49.3px;
     color: #BDB6B6;
-    font-family: "HK Grotesk";
+    font-family: HKGrotesk;
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
+}
+
+h1,h2,h3{
+    color: #D3CCCC;
+    font-family: HKGrotesk;
+    margin: 0;
+}
+
+
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@font-face {
+    font-family: HKGrotesk;
+    src: url('./assets/fonts/HKGrotesk-Regular.otf') format("opentype");
 }
