@@ -1,12 +1,14 @@
 import {NgModule} from '@angular/core';
 
 import {
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatCheckboxModule
 } from '@angular/material';
 
 @NgModule({
   exports: [
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatCheckboxModule
   ]
 })
 export class MaterialModule {}
